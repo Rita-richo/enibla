@@ -193,3 +193,35 @@ margin-top: 6rem;
     border-radius: 100%;
     background-color: #fff;
 }
+.about-us {
+    margin-top: 5rem;
+}
+.about-us_heading{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    width:65%;
+    margin: auto;
+}
+.about-us h2{
+    font-family: 'Lobster Two', cursive;
+    font-size: 3.3rem;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+}
+.about-us h2 a{
+    color: rgb(44, 42, 42);
+}
+.line {
+    width:13rem;
+    height: .2rem;
+    background-color:#ff5200;
+    margin-bottom: 3.5rem;
+}
+.about-us p{
+color:rgb(155, 151, 151)
+}
