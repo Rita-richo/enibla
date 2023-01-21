@@ -1,0 +1,136 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Lobster Two', cursive; */
+}
+
+html{
+    font-size: 62.5%;
+}
+body {
+    background-color: rgb(233, 233, 238);
+    color:#000;
+    font-size: 1.4rem;
+    font-family: 'Roboto Flex', sans-serif; 
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.header {
+
+}
+
+.nav-top {
+    padding:2rem 4rem 2rem 5rem;
+    display:flex;
+    align-items: center;
+    gap: 15%;
+}
+
+.logo {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container {
+    width: 18rem;
+}
+
+.logo-container img {
+    width: 100%;
+}
+
+.logo h2 {
+    font-family: lobster two;
+    font-style: italic;
+    color: orangered;
+    font-weight: 700;
+}
+
+.search{
+    position:relative;
+    flex: 1;
+}
+
+.search input{
+    padding: 1.5rem 2.5rem 1.5rem 1rem;
+    border: 1px solid orangered;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.search input::placeholder{
+    color: orangered;
+}
+
+.search i{
+    position:absolute;
+    right:1rem;
+    bottom:50%;
+    transform: translateY(50%);
+    color: orangered
+}
+.social-links ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+.social-links ul li:first-child{
+    background-color: orangered;
+    
+}
+.social-links ul li:first-child a{
+    color:#fff;
+}
+
+.social-links ul li {
+    margin-right: 1.5rem;
+}
+
+.social-links ul li a {
+    color: orangered;
+}
+.circle {
+    background-color: #fff;
+    border: 1px solid orangered;
+    width:3.4rem;
+    height:3.4rem;
+    border-radius: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-main {
+    height: 5rem;
+    width: 100%;
+    background-color:#ff5200;
+    margin-top: -0.5rem;
+}
+.nav-main ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    font-size: 1.5rem;
+    padding: 1.7rem;
+}
+
+.nav-main ul li a{
+    color:#fff;
+    text-transform: uppercase;
+}
