@@ -341,9 +341,6 @@ p.black-p{
 ::placeholder{
     color: #fff;
 }
-
-
-
 .input-btn{
     padding: 1.4rem 4rem;
     border-radius: 1rem;
@@ -354,4 +351,31 @@ p.black-p{
     font-weight: 600;
     text-transform: uppercase;
     margin-left: 1rem;
+}
+
+.menu-list{
+    margin: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+
+}
+
+.list button{
+    flex:1;
+    padding: 1.2rem 3rem;
+    background-color: #fff;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    border: rgb(138, 135, 135) 1.8px solid;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(138, 135, 135);
+
+}
+.first-list button{
+    background-color: #ff5200;
+    color: #fff;
+    border:none;
 }
