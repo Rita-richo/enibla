@@ -341,9 +341,6 @@ p.black-p{
 ::placeholder{
     color: #fff;
 }
-
-
-
 .input-btn{
     padding: 1.4rem 4rem;
     border-radius: 1rem;
@@ -354,4 +351,69 @@ p.black-p{
     font-weight: 600;
     text-transform: uppercase;
     margin-left: 1rem;
+}
+
+.menu-list{
+    margin: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+
+}
+
+.list button{
+    flex:1;
+    padding: 1.2rem 3rem;
+    background-color: #fff;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    border: rgb(138, 135, 135) 1.8px solid;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(138, 135, 135);
+
+}
+.first-list button{
+    background-color: #ff5200;
+    color: #fff;
+    border:none;
+}
+.menu-cards{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:6rem;
+    padding: 2rem 10vw;
+}
+.menu-card img{
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.menu-card{
+    box-shadow: rgba(0,0,0,0.1)  0 0 2rem;;
+    border-radius: 1rem;
+    transition: all .3s;
+}
+.texts{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    gap:2.5rem;
+    padding: 2rem;
+    
+}
+.texts h3{
+    font-size: 3rem;
+    color:#ff5200
+}
+.texts h4{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.menu-card:hover{
+    transform: translateY(5px);
 }
